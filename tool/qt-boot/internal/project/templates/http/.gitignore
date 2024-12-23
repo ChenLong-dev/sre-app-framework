@@ -9,8 +9,7 @@
 *.dll
 *.so
 *.dylib
-# MacOS data file
-.DS_store
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -123,6 +122,4 @@ modules.xml
 
 # End of https://www.gitignore.io/api/go,intellij+all,visualstudiocode
 
-config/*.yaml
-*.pem
-.agollo
+./config/*.yaml
